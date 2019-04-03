@@ -8,34 +8,41 @@
  <script src="main.js" async></script>
 </head>
 
-<body>
-<div class="container">
- <div class="grid">
-   <div class="card-1" >
-     <h1>Malou</h1>
-       <img src="images/Malou.webp" alt=“” width="100%">
-       <p>“Alleen maar liefde op Oranjebloesem“</p>
-     </div>
-   <div clas="card-2" >
-       <h1>Hensen</h1>
-         <img src="images/Hansje.webp" alt="" width="100%">
-         <p>“Vrijheid, blijheid en nvooral heel veel gezelligheid op Oranjebloesem!“</p>
-     </div>
-   <div class="card-3" >
-    <div class="brand">
-     <img src="images/mixmag72.png" width="40%">
-   </div>
-     <div class="logo">
-     <img src="images/selektor72.png" width="40%">
-   </div>
-   <div id="quote-toggle" class="visible">
-     <p>"In de loop van de jaren zijn er op Koningsdag steeds meer festivals uit de lucht komen vallen en Oranjebloesem bewijst erbij te horen."</p>
-   </div>
-     </div>
-     </div>
-   </div>
-</div>
+<body style="margin: 0;">
+  <div class="container">
+    <div class="grid">
+      <div class="slide">
+        <div class="card-1" >
+          <h1>Malou</h1>
+          <img src="images/Malou.webp" alt=“”>
+          <p>"Alleen maar liefde op Oranjebloesem"</p>
+        </div>
+      </div>
+      <div class="slide hidden">
+        <div class="card-2" >
+          <h1>Hensen</h1>
+          <img src="images/Hansje.webp" alt="">
+          <p>"Vrijheid, blijheid en nvooral heel veel gezelligheid op Oranjebloesem!"</p>
+        </div>
+      </div>
+      <div class="card-3" >
+        <div class="brand">
+          <img src="images/mixmag72.png" width="45%" height="100%">
+        </div>
+        <div class="logo">
+          <img src="images/selektor72.png" width="45%" height="100%">
+        </div>
+        <div id="quote-toggle" class="visible">
+          <p class="quote">"In de loop van de jaren zijn er op Koningsdag steeds meer festivals uit de lucht komen vallen en Oranjebloesem bewijst erbij te horen."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-view">
+    <a id="prev" click="card-1">&#10094;</a>
+    <a id="next" click="card-2">&#10095;</a>
+  </div>
 
 </body>
-
 </html>
